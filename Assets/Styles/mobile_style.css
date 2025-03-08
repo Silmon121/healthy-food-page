@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-container img {
+        position: absolute;
+        width: 425px;
+        height: 415px;
+        top: 0;
+        left: 20%;
+    }
+    .orange-rectangle{
+        position: relative;
+        left: 0;
+        width: 90%;
+    }
+    .orange-rectangle-content-container{
+        left: 0;
+        top: 0;
+    }
+
+
+    .menu-container h2{
+        font-size: 3rem;
+    }
+    .menu-items{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .food-display{
+        height: auto;
+    }
+    .food-display-items{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+    .food-display-item{
+
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        width: 100%;
+    }
+    .item-img-container{
+        width: 70%;
+    }
+    .item-description{
+        width: 100%;
+    }
+    .item-description span{
+        font-size: 40px;
+    }
+
+    .food-display2{
+        height: auto;
+    }
+    .img-container{
+        height: 35vh;
+    }
+    .menu-grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        bottom: 50px;
+    }
+    .salad-section{
+        height: auto;
+    }
+    .salad-container{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .salad-info-container{
+        width: 80%;
+    }
+    .salad-info-container h2{
+        font-size: 2rem;
+    }
+    .salad-image-container{
+        width: 100%;
+        height: 35vh;
+    }
+    .organic-section{
+        height: 40vh;
+        background-position: 50% 40%;
+    }
+    .organic-container{
+        width: 70%
+    }
+    .organic-header-container h2{
+        font-size: 2.5rem;
+    }
+    .user_reviews-section{
+        height: 70vh;
+    }
+    .user_reviews-container{
+        top: 5%;
+    }
+
+    .subscribe-section{
+        height: 60vh;
+    }
+    .subscribe-container{
+        width: 60%;
+        height: 70%;
+    }
+    .subscribe-container h2{
+        font-size: 3rem;
+    }
+    .subscribe-container p{
+        font-size: 1rem;
+    }
+    .footer-info-container{
+        width: 90%
+    }
+    .footer-info-container p{
+        font-size: 1rem;
+    }
+}
