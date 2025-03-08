@@ -15,13 +15,17 @@
         position: relative;
         left: 0;
         width: 90%;
+        padding: 0
     }
     .orange-rectangle-content-container{
         left: 0;
         top: 0;
     }
 
-
+    .menu-container{
+        width: 90%;
+        padding-bottom: 100px;
+    }
     .menu-container h2{
         font-size: 3rem;
     }
@@ -31,11 +35,12 @@
         gap: 20px;
     }
     .food-display{
+        width: 100%;
         height: auto;
     }
     .food-display-items{
         display: flex;
-        width: 40%;
+        width: 90%;
         flex-direction: column;
     }
     .food-display-item{
@@ -46,7 +51,7 @@
         width: 100%;
     }
     .item-img-container{
-        width: 70%;
+        width: 30%;
     }
     .item-description{
         width: 100%;
@@ -63,6 +68,7 @@
     }
     .menu-grid-container{
         display: flex;
+        width: 80%;
         flex-direction: column;
         gap: 0;
         bottom: 50px;
@@ -83,11 +89,17 @@
     }
     .salad-image-container{
         width: 100%;
-        height: 35vh;
+        height: 50vh;
     }
     .organic-section{
         height: 40vh;
         background-position: 50% 40%;
+    }
+    .organic-header-container h2{
+        width: 100%;
+    }
+    .organic-description-container p{
+        width: 100%;
     }
     .organic-container{
         width: 70%
@@ -98,6 +110,9 @@
     .user_reviews-section{
         height: 70vh;
     }
+    .slide-container{
+        width: 90%;
+    }
     .user_reviews-container{
         top: 5%;
     }
@@ -106,14 +121,22 @@
         height: 60vh;
     }
     .subscribe-container{
-        width: 60%;
-        height: 70%;
+        width: 80%;
+        height: 65%;
     }
     .subscribe-container h2{
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-bottom: 50px;
     }
     .subscribe-container p{
+        width: 85%;
         font-size: 1rem;
+    }
+    .subscribe-input-frame{
+        width: 95%;
+    }
+    .subscribe-button-container button{
+        width: 95%;
     }
     .footer-info-container{
         width: 90%
