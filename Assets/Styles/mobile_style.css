@@ -6,9 +6,9 @@
     }
     .intro-container img {
         position: absolute;
-        width: 425px;
-        height: 415px;
-        top: 0;
+        width: 325px;
+        height: 315px;
+        top: 10%;
         left: 20%;
     }
     .orange-rectangle{
@@ -80,6 +80,7 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
+        width: 90%;
     }
     .salad-info-container{
         width: 80%;
@@ -122,7 +123,7 @@
     }
     .subscribe-container{
         width: 80%;
-        height: 65%;
+        height: 60%;
     }
     .subscribe-container h2{
         font-size: 2rem;
@@ -143,5 +144,28 @@
     }
     .footer-info-container p{
         font-size: 1rem;
+    }
+}
+@media screen and (max-height: 1000px){
+    .intro-container img{
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .intro-container{
+        height: auto;
+        padding: 100px 0 100px 0;
+    }
+    .orange-rectangle{
+        height: 80%;
+        padding: 20px 0 20px 0;
+    }
+
+    .subscribe-section{
+        height: auto;
+        padding: 100px 0 100px 0;
+    }
+    .subscribe-container{
+        height: 90%;
     }
 }
